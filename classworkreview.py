@@ -58,6 +58,7 @@ def main():
     #initiates instances of my classes
     favoriteMovie = Movie("Braddock", "PG-16", "1988")
     print(favoriteMovie) #prints current properties that are stored in the instances
+    # !! : create *two* instances
     newProduct = Product("12.00", "1", "Dress")
     print(newProduct) #prints current properties that are stored in the instances
     newProduct1 =Product("24.00", "2", "Pants")
